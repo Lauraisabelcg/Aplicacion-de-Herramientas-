@@ -21,7 +21,7 @@ def mensajes():
         Lista_mensajes={
         "id":generar_id(mensajes),
         "fecha":str(date.today()),
-        "Detalle":input("¿Que desea comunicar al Administrador?")
+        "Detalle":input("Escriba ¿Que desea comunicar al Administrador?")
             
         }
     mensajes.append(Lista_mensajes)
@@ -35,4 +35,5 @@ def lista_mensajes():
         print(f"fecha:{elemento['fecha']}")
         print(f"Detalle:{elemento['Detalle']}")
         print("-"*20)
+
 
